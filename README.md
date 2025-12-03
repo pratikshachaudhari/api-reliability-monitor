@@ -1,4 +1,4 @@
-#Service Reliability & API Validation Framework  
+# Service Reliability & API Validation Framework  
 ---
 
 Overview
@@ -53,15 +53,6 @@ Two separate log files:
 - `service.log` → Normal flow, info logs  
 - `alerts.log` → Failures, warnings, threshold violations  
 
-Architecture Diagram
-            ┌──────────────────────────────┐
-            │       Health Check Loop       │
-            └───────────────┬──────────────┘
-                            │
-                            ▼
-                 API Endpoint (Target)
-                            │
-                            ▼
 
 # Sample Log Outputs
 
