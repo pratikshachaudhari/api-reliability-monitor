@@ -57,12 +57,12 @@ Two separate log files:
 # Sample Log Outputs
 
 # alerts.log
-[ALERT] WARNING: Latency over threshold: 1200 ms
-[ALERT] ERROR: Status code mismatch: expected 200, got 500
+- [ALERT] WARNING: Latency over threshold: 1200 ms
+- [ALERT] ERROR: Status code mismatch: expected 200, got 500
 
 # service.log
-[SERVICE] Health check: status=200 latency=150 ms
-[SERVICE] Test: JSON keys present -> PASS
+- [SERVICE] Health check: status=200 latency=150 ms
+- [SERVICE] Test: JSON keys present -> PASS
 
 
 # Author
