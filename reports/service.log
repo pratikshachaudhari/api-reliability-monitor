@@ -1,0 +1,63 @@
+2025-12-03 23:07:35,616 [SERVICE] INFO: Starting API reliability monitor for: https://jsonplaceholder.typicode.com/posts/1
+2025-12-03 23:07:35,616 [SERVICE] INFO: Planned iterations: 10
+2025-12-03 23:07:35,616 [SERVICE] INFO: --- Check 1/10 ---
+2025-12-03 23:07:35,682 [SERVICE] INFO: Health check result: status=200, latency=64.44 ms, error=None
+2025-12-03 23:07:35,682 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:07:35,682 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:07:35,682 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 64.44 ms)
+2025-12-03 23:07:35,682 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:07:40,688 [SERVICE] INFO: --- Check 2/10 ---
+2025-12-03 23:07:40,743 [SERVICE] INFO: Health check result: status=200, latency=52.84 ms, error=None
+2025-12-03 23:07:40,743 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:07:40,744 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:07:40,744 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 52.84 ms)
+2025-12-03 23:07:40,744 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:07:45,749 [SERVICE] INFO: --- Check 3/10 ---
+2025-12-03 23:07:45,805 [SERVICE] INFO: Health check result: status=200, latency=53.71 ms, error=None
+2025-12-03 23:07:45,806 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:07:45,806 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:07:45,806 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 53.71 ms)
+2025-12-03 23:07:45,806 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:07:50,811 [SERVICE] INFO: --- Check 4/10 ---
+2025-12-03 23:07:50,871 [SERVICE] INFO: Health check result: status=200, latency=57.88 ms, error=None
+2025-12-03 23:07:50,872 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:07:50,872 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:07:50,872 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 57.88 ms)
+2025-12-03 23:07:50,872 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:07:55,878 [SERVICE] INFO: --- Check 5/10 ---
+2025-12-03 23:07:55,940 [SERVICE] INFO: Health check result: status=200, latency=59.06 ms, error=None
+2025-12-03 23:07:55,940 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:07:55,940 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:07:55,940 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 59.06 ms)
+2025-12-03 23:07:55,940 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:08:00,946 [SERVICE] INFO: --- Check 6/10 ---
+2025-12-03 23:08:01,001 [SERVICE] INFO: Health check result: status=200, latency=53.65 ms, error=None
+2025-12-03 23:08:01,001 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:08:01,001 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:08:01,001 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 53.65 ms)
+2025-12-03 23:08:01,001 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:08:06,007 [SERVICE] INFO: --- Check 7/10 ---
+2025-12-03 23:08:06,065 [SERVICE] INFO: Health check result: status=200, latency=56.65 ms, error=None
+2025-12-03 23:08:06,065 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:08:06,065 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:08:06,065 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 56.65 ms)
+2025-12-03 23:08:06,065 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:08:11,071 [SERVICE] INFO: --- Check 8/10 ---
+2025-12-03 23:08:11,121 [SERVICE] INFO: Health check result: status=200, latency=48.51 ms, error=None
+2025-12-03 23:08:11,121 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:08:11,121 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:08:11,122 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 48.51 ms)
+2025-12-03 23:08:11,122 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:08:16,127 [SERVICE] INFO: --- Check 9/10 ---
+2025-12-03 23:08:16,186 [SERVICE] INFO: Health check result: status=200, latency=56.42 ms, error=None
+2025-12-03 23:08:16,186 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:08:16,186 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:08:16,186 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 56.42 ms)
+2025-12-03 23:08:16,186 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:08:21,192 [SERVICE] INFO: --- Check 10/10 ---
+2025-12-03 23:08:21,252 [SERVICE] INFO: Health check result: status=200, latency=57.66 ms, error=None
+2025-12-03 23:08:21,252 [SERVICE] INFO: Test: No network/timeout error -> PASS (None)
+2025-12-03 23:08:21,252 [SERVICE] INFO: Test: Status code is 200 -> PASS (Got 200)
+2025-12-03 23:08:21,252 [SERVICE] INFO: Test: Latency under 800 ms -> PASS (Latency 57.66 ms)
+2025-12-03 23:08:21,253 [SERVICE] INFO: Test: JSON contains expected keys -> PASS (All keys present)
+2025-12-03 23:08:21,253 [SERVICE] INFO: Monitoring completed.
